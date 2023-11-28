@@ -12,7 +12,7 @@ import { orderRouter } from './Route/orderRoute.js';
 const app=express();
 app.use(express.json());
 app.use(cookieParser());
-app.use(cors({origin:"https://codeswear-frontend-q3d05ah5x-rahul12gaming.vercel.app",credentials:true}))
+app.use(cors({origin:"https://codeswear-frontend.vercel.app",credentials:true}))
 
 
 
